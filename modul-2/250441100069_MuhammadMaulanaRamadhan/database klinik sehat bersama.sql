@@ -1,0 +1,2 @@
+CREATE DATABASE klinik_sehat_bersama;
+USE klinik_sehat_bersama
