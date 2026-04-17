@@ -1,0 +1,1 @@
+select nama_barang, kategori, kode_sku from inventaris_gudang_pusat where lokasi_rak IS NULL and stok >0 and status_qc = 'Lulus';
