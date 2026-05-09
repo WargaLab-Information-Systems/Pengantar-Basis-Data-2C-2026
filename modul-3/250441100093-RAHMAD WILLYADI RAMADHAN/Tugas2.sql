@@ -1,0 +1,2 @@
+SELECT DISTINCT kategori, id_barang, nama_barang, harga_satuan, stok, lokasi_rak, status_qc FROM inventaris_gudang_pusat 
+WHERE kode_sku LIKE '%ELEC%' AND kode_sku LIKE '%X' AND harga_satuan > 5000000;
